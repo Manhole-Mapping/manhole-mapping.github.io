@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>Manhole Mapping in Uppal</title>
 </head>
 <body>
@@ -16,7 +16,6 @@
     </ul>
   </nav>
   <main>
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=17k8rFNTXHfX6ufsS3VC2NykWK3_1woM&ehbc=2E312F" width="640" height="480"></iframe>
     <section id="Introduction">
       <h2>Introduction</h2>
       <p>A manhole or maintenance hole is an opening to a confined space such as a shaft, utility vault, or large vessel.</p>
@@ -45,8 +44,14 @@ In rains, the uncovered manholes become invisible which causes accidents of the 
       </ul>
     </section>
     <section id="Results">
-      <img src="d8546f73-f58f-4069-9cda-c80dd92e3a85.jpg" alt="elevation map" width="500" height="600">
-      <h2>Cooments</h2>
+      <h2>Results</h2>
+    </section>
+    <div>
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=17k8rFNTXHfX6ufsS3VC2NykWK3_1woM&ehbc=2E312F" width="640" height="480"></iframe>
+    </div>
+    <img src="assets/img/d8546f73-f58f-4069-9cda-c80dd92e3a85.jpg" alt="elevation map" height="600">
+    <section id="comments">
+      <h2>Comments</h2>
       <div id="disqus_thread"></div>
       <script>
           /**
@@ -64,14 +69,14 @@ In rains, the uncovered manholes become invisible which causes accidents of the 
           })();
       </script>
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      <h2>Contact Us</h2>
-      <form>
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">Submit</button>
-      </form>
     </section>
+    <!-- <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
+    </form> -->
   </main>
   <footer>
     <p>&copy; Societal Work 2023</p>
@@ -79,60 +84,3 @@ In rains, the uncovered manholes become invisible which causes accidents of the 
   <script src="script.js"></script>
 </body>
 </html>
-
-#CSS 
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 1em;
-  text-align: center;
-}
-
-nav {
-  background-color: #ccc;
-  display: flex;
-  justify-content: center;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav li {
-  margin: 0 1em;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 1em;
-}
-
-section {
-  width: 30%;
-  margin: 1em;
-  text-align: center;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 1em;
-  text-align: center;
-}
