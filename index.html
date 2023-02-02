@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
   <title>Manhole Mapping in Uppal</title>
 </head>
 <body>
@@ -16,7 +18,9 @@
     </ul>
   </nav>
   <main>
+    <section>
    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=17k8rFNTXHfX6ufsS3VC2NykWK3_1woM&ehbc=2E312F" width="640" height="480"></iframe>
+       </section>
     <section id="Introduction">
       <h2>Introduction</h2>
       <p>A manhole or maintenance hole is an opening to a confined space such as a shaft, utility vault, or large vessel.</p>
@@ -43,25 +47,30 @@ In rains, the uncovered manholes become invisible which causes accidents of the 
 </li>
      </ul>
      
-     <img src="assets/img/Manhole_accidents.jpg" alt="Pictures of Previous accidents in Hyderabad due to open manholes" height="600" width="400">
+     <img src="assets/img/Manhole_accidents.jpg" alt="Pictures of Previous accidents in Hyderabad due to open manholes" height="600" width="900">
+      <li>Pictures of Previous accidents in Hyderabad due to open manholes</li>
      
     </section>
+    <section>
     <h3>Field Visit</h3>
     
     <p>Data is collected in Kalyanpuri colony of Uppal, Hyderabad. The area is selected by using DEM map by integrating water level and found that this area is a low lying area. Also, this area is flooded and recorded some accidents previously due to open manholes. The data collection is done by a team of five people splitted into different groups and lanes. The accurate coordinates of the manholes are collected using GPS Camera application on mobile phone. Data is then sorted into an excel sheet to generate the maps using QGIS and Surfer</p>
     
-    <img src="assets/img/Survey_mahole_pictures.jpg" alt="Pictures of Field visit for data collection in Kalyanpuri colony, Uppal, Hyderabad" height="600" width="400">
-    
+    <img src="assets/img/Survey_mahole_pictures.jpg" alt="Pictures of Field visit for data collection in Kalyanpuri colony, Uppal, Hyderabad" height="600" width="900">
+    <li>Pictures of Field visit for data collection in Kalyanpuri colony, Uppal, Hyderabad</li>
+    </section>
     
     <section id="Method">
       <h2>Method</h2>
       <ul>
         <p>Choosing the proper area is very important for effectiveness of our work so we have selected the area by integrating Digital Elevation Model (DEM) and groundwater level. This will give information about the low lying area shown in figure. DEM SRTM file was downloaded from USGS earth explorer then imported and plotted in Surfer/QGIS. The 3D view of the file was integrated with groundwater level to understand the low lying and drainage patterns.</p>
         
-        <img src="assets/img/DEM with Drainage Area (1).tif" alt="Digital Elevation model of Hyderabad. Red dots indicate the location of the study area" height="600">>
+        <img src="assets/img/DEM with Drainage Area(1).png" alt="Digital Elevation model of Hyderabad. Red dots indicate the location of the study area" height="600">>
+        <li>Digital Elevation model of Hyderabad. Red dots indicate the location of the study area</li>
   
 <img src="assets/img/DEM with Low Lying area.png" alt="3D Gradient map for identifying and choosing the low lying area. Digital Elevation model of Hyderabad. Red Circle indicate the location of the study area" height="600">
-
+<li>3D Gradient map for identifying and choosing the low lying area. Digital Elevation model of Hyderabad. Red Circle indicate the location of the study area</li>
+        
 <p>Based on the DEM data, the low lying area Kalyanpuri colony of Uppal, Hyderabad is selected for data collection. Also, this area is flooded and recorded some accidents previously due to open manholes. The data collection is done by a team of five people splitted into different groups and lanes. The accurate coordinates of the manholes are collected using GPS Camera application on mobile phone.</p>
 
 <p>The data was digitized and added as a layer in Google my Maps and the code for the map was taken and embedded in our website. As per the need the data can be updated on Google my Maps and this will automatically be updated on website.
